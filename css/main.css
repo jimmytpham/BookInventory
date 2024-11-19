@@ -1,0 +1,198 @@
+/*Jimmy Pham */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #7CB9E8;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Heading inside header */
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+/* Navigation bar styling */
+nav {
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Links in the navigation bar */
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #7CB9E8;
+    border-radius: 5px;
+}
+
+/* Hover effect for nav links */
+nav a:hover {
+    background-color: #7CB9E8;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Form Styling */
+form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields in forms */
+form input[type="text"], 
+form input[type="date"], 
+form input[type="number"], 
+form input[type="email"], 
+form select {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button in forms */
+form button {
+    background-color: #7CB9E8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for submit button */
+form button:hover {
+    background-color: #7CB9E8;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header and cells */
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternating row colors for tables */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table row hover effect */
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Message container */
+.message {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* layout is responsive on smaller screens/windows */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    form {
+        width: 95%;
+    }
+    nav a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+.export-options {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.export-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #7CB9E8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.export-button:hover {
+    background-color: #7CB9E8;
+}
+
+.back-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-button .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #7CB9E8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-button .button:hover {
+    background-color: #7CB9E8;
+}
